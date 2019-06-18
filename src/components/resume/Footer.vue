@@ -7,6 +7,7 @@
     .resume-footer {
         display: flex;
         height: 8vh;
+        padding: 1vh 0;
         .resume-footer-text {
             margin: auto;
             color: #5bbae8;

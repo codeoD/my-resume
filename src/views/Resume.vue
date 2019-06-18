@@ -19,7 +19,11 @@ import ResumeBody from '@/components/resume/Body.vue'
     ResumeBody
   }
 })
-export default class Resume extends Vue {}
+export default class Resume extends Vue {
+    mounted () {
+        console.log('component is mounted!')
+    }
+}
 </script>
 <style>
 .resume {
